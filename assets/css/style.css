@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#nav{
+    height: 117px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0px 0px 12px rgba(0,0,0,0.4);
+}
+
+#nav .wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav .wrap ul{
+    display: flex;
+    align-items: center;
+}
+
+#nav .wrap ul li{
+    list-style: none;
+    margin-left: 40px;
+}
+
+#nav .wrap ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap{
+    width: 1100px;
+    margin: 50px 0px;
+}
+
+.title{
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.subtitle{
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+
+main input[type='text']{
+    padding: 15px;
+    border: 1px solid #ddd;
+    font-size: 17px;
+    margin-bottom: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: transparent;
+    color: white;
+    background-color: #3A91AF;
+    margin-right: 10px;
+}
+
+.contenedor_formularios{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 60px;
+}
+
+
+.contenedor_tablas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    margin-top: 60px;
+}
+
+.tabla{
+    /* height: 330px; */
+}
+
+.tabla .tabla_header{
+    padding: 30px;
+    color: white;
+    background-color: #3a91af;
+    text-align: center;
+    font-weight: 600;
+}
+
+.contenedor_cell{
+    height: 280px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    align-content: flex-start;
+    grid-auto-rows: auto;
+}
+
+.contenedor_cell.max{
+    grid-template-columns: auto auto repeat(6, 1fr);
+}
+
+.tabla_cell.strong{
+    font-weight: 600;
+}
+
+.tabla_cell{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
