@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+
+    <script src="https://kit.fontawesome.com/812c8ee19a.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+
+    <script src="js/jquery.js"></script>
+</head>
+<body>
+
+    <!-- INICIO DE MENÚ -->
+    <header id="header">
+        <nav class="menu">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/Logo_BGeraser.svg" alt="" class="img-fluid logos">
+                </a>
+
+                <a href="#" class="btn-menu" id="btn-menu">
+                    <i class="icono-menu fa-solid fa-bars"></i>
+                </a>
+            </div>
+
+            <div class="enlaces" id="enlaces">
+                <a href="#"> Inicio</a>
+                <a href="#"> Nosotros</a>
+                <a href="#"> Catálogo</a>
+                <a href="#"> Biblioteca</a>
+                <a href="#"> Servicios</a>
+            </div>
+        </nav>
+    </header>
+    <!-- FIN DE MENÚ -->
+
+    <main>
+        <!-- INICIO DE BANNER -->
+        <section class="banner">
+            <img src="img/banner-img.jpg" alt="" class="img-fluid banner-img">
+
+            <div class="container">
+                <div class="row centrado">
+                    <div class="banner-data">
+                        <h1 class="banner-titulo"> VIAJA GRATIS LEYENDO</h1></br>
+                        <a href="#" class="banner-boton"> Ir a la biblioteca</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN DE BANNER -->
+
+        <br><br><br><br>
+
+        <!-- INICIO CARDS -->
+        <div class="container">
+            <h2 class="CHB-titulo">NOVEDADES</h2><br>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="img/post1.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="img/post3.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="img/post2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FIN DE CARDS -->
+
+        <br><br><br>
+        <!-- ojiyo -->
+        <div class="container">
+        <!-- <section class="servicio-container"> -->
+            <h2 class="CHB-titulo">SERVICIOS</h2><br>
+            <div class="servicio-boton">
+                <button class="serviciob btn-1"> Préstamos de libros</button>
+                <button class="serviciob btn-2"> Librería Virtual</button>
+            </div>
+        </div>
+
+        <br><br><br>
+
+        <!-- INICIO CARDS - LIBROS -->
+        <div class="container lib">
+            <h2 class="CHB-titulo">ALGUNOS LIBROS</h2><br>
+            <div class="cards-lib-grid">
+
+                <div class="card-lib">
+                    <div class="card-lib-img">
+                        <img src="img/libro_1.jpg" alt="">
+                    </div>
+                    <div class="card-lib-content">
+                        <h2 class="card-title">Encuentra tu persona vitamina</h3>
+                        <h4 class="card-precio-libro">S/ 99.90 <sup class="card-precio-ant">S/ 120.00</sup> </h4>
+                        <a href="#" class="opcionesb card-boton1"> Comprar</a>
+                        <a href="#" class="opcionesb card-boton2"> Detalles</a>
+                    </div>
+                </div>
+
+                <div class="card-lib">
+                    <div class="card-lib-img">
+                        <img src="img/libro_2.jpg" alt="">
+                    </div>
+                    <div class="card-lib-content">
+                        <h3 class="card-title">La hipótesis del amor</h3>
+                        <h4 class="card-precio-libro">S/ 95.90 <sup class="card-precio-ant">S/ 110.00</sup> </h4>
+                        <a href="#" class="opcionesb card-boton1"> Comprar</a>
+                        <a href="#" class="opcionesb card-boton2"> Detalles</a>
+                    </div>
+                </div>
+
+                <div class="card-lib">
+                    <div class="card-lib-img">
+                        <img src="img/libro_3.jpg" alt="">
+                    </div>
+                    <div class="card-lib-content">
+                        <h3 class="card-title">El mal acecha</h3>
+                        <h4 class="card-precio-libro">S/ 70.90 <sup class="card-precio-ant">S/ 90.00</sup></h4>
+                        <a href="#" class="opcionesb card-boton1"> Comprar</a>
+                        <a href="#" class="opcionesb card-boton2"> Detalles</a>
+                    </div>
+                </div>
+
+                <div class="card-lib">
+                    <div class="card-lib-img">
+                        <img src="img/libro_4.jpg" alt="">
+                    </div>
+                    <div class="card-lib-content">
+                        <h3 class="card-title">¡Las chicas jugamos de todo!</h3>
+                        <h4 class="card-precio-libro">S/ 65.00 <sup class="card-precio-ant">S/ 85.00</sup></h4>
+                        <a href="#" class="opcionesb card-boton1"> Comprar</a>
+                        <a href="#" class="opcionesb card-boton2"> Detalles</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FINAL DE CARDS - LIBROS -->
+
+        <div class="container">
+            <form class="form-boletin" action="">
+                <h2 class="form-titulo">SUSCRÍBETE A NUESTRO BOLETÍN</h2>
+                    <input class="control" type="email"  name="email" placeholder="Ingresa tu email"><br>
+                    <input class="form-btn" type="submit" name="Suscribir">
+            </form>
+        </div>
+        
+        <br><br><br>
+
+    </main>
+
+    <!-- INICIO DE FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <h1 class="CHB-titulo">MANTENTE ACTUALIZADO</h1>
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/profile.php?id=100086574635209"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/lib_chasquibook/?theme=dark"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            </ul>
+
+            <p class="txt-footer">© 2022 Copyright Chasqui Book | Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <!-- FIN DE FOOTER -->    
+    
+    <script src="js/bootstrap.js"></script>
+    <script src="js/headroom.min.js"></script>
+    <script src="js/menu-flex.js"></script>
+
+</body>
+</html>
