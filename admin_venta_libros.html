@@ -7,44 +7,54 @@
         
         <title>Administración de libros</title>
 
+        
+        <script src="https://kit.fontawesome.com/812c8ee19a.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="assets/css/style.css">
+        <script src="js/jquery.js"></script>
     </head>
     <body>
-        <!-- Barra de navegación -->
-        <nav id="nav">
-            <div class="wrap">
-                <div class="contenedor_logo"></div>
-                <div class="buttons_nav">
-                    <ul>
-                        <li><a href="#">Elemento 1</a></li>
-                        <li><a href="#">Elemento 2</a></li>
-                        <li><a href="#">Elemento 3</a></li>
-                        <li><a href="#">Elemento 4</a></li>
-                        <li><a href="#">Elemento 5</a></li>
-                    </ul>
+        <!-- INICIO DE MENÚ -->
+        <header id="header">
+            <nav class="menu">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/Logo_BGeraser.svg" alt="" class="img-fluid logos">
+                    </a>
+
+                    <a href="#" class="btn-menu" id="btn-menu">
+                        <i class="icono-menu fa-solid fa-bars"></i>
+                    </a>
                 </div>
-            </div>
-        </nav>
-        <!-- Barra de navegación -->
+
+                <div class="enlaces" id="enlaces">
+                    <a href="#"> Inicio</a>
+                    <a href="#"> Nosotros</a>
+                    <a href="#"> Catálogo</a>
+                    <a href="#"> Biblioteca</a>
+                    <a href="#"> Servicios</a>
+                </div>
+            </nav>
+        </header>
+        <!-- FIN DE MENÚ -->
 
 
         <main>
             <div class="wrap">
-                <h2 class="title">Administración de libros</h2>
+                <h2 class="title">Administración de ventas de libros</h2>
 
-                <div class="contenedor_formularios" style="margin-top: 80px; grid-template-columns: 1fr 1fr 1fr; row-gap: 0">
+                <div class="contenedor_formularios formulario2">
                     <section class="formulario_categoria">
                         <h3 class="subtitle">Crear una categoria</h3>
                         <input type="text" placeholder="Inserta el">
                     </section>
 
                     <section class="formulario_categoria">
-                        <div style="margin-bottom: 60px;"></div>
+                        <div class="invisible" style="margin-bottom: 60px;"></div>
                         <input type="text" placeholder="Inserta el">
                     </section>
                     
                     <section class="formulario_categoria">
-                        <div style="margin-bottom: 60px;"></div>
+                        <div class="invisible" style="margin-bottom: 60px;"></div>
                         <input type="text" placeholder="Inserta el">
                     </section>
 
@@ -224,5 +234,27 @@
                 </div>
             </div>
         </main>
+
+
+
+        <!-- INICIO DE FOOTER -->
+        <footer>
+            <div class="footer-content">
+                <h1 class="CHB-titulo">MANTENTE ACTUALIZADO</h1>
+                <ul class="socials">
+                    <li><a href="https://www.facebook.com/profile.php?id=100086574635209"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/lib_chasquibook/?theme=dark"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                </ul>
+
+                <p class="txt-footer">© 2022 Copyright Chasqui Book | Todos los derechos reservados</p>
+            </div>
+        </footer>
+        <!-- FIN DE FOOTER --> 
+
+
+        <script src="js/headroom.min.js"></script>
+        <script src="js/menu-flex.js"></script>
     </body>
 </html>
